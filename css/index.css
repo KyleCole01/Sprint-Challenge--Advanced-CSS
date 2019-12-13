@@ -1,3 +1,11 @@
+.text {
+  font-size: 1.7rem;
+  color: black;
+}
+.bigtext {
+  font-size: 4rem;
+  margin-bottom: 3%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,6 +167,32 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav h1 {
+  font-size: 4rem;
+  margin-bottom: 3%;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: black;
+}
+nav div {
+  width: 60%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 500px) {
+  nav div {
+    width: 90%;
+  }
 }
 footer {
   color: #22283B;
