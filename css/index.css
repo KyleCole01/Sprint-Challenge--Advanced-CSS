@@ -1,11 +1,3 @@
-.text {
-  font-size: 1.7rem;
-  color: black;
-}
-.bigtext {
-  font-size: 4rem;
-  margin-bottom: 3%;
-}
 @keyframes color_changer {
   0% {
     background-color: red;
@@ -27,6 +19,14 @@
     border-radius: 5px;
     color: black;
   }
+}
+.text {
+  font-size: 1.7rem;
+  color: black;
+}
+.bigtext {
+  font-size: 4rem;
+  margin-bottom: 3%;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
